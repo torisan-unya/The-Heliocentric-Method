@@ -4,6 +4,8 @@
 
 これは、AI時代の物語創作における新しい思想体系 **「The Heliocentric Method（地動説メソッド）」** の母港（ホームポート）となるリポジトリです。
 
+**Author:** Torisan Unya [@torisan_unya] (ORCID: https://orcid.org/0009-0004-7067-9765)
+
 ---
 
 ## はじめに：なぜ「地動説」なのか
