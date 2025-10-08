@@ -2,7 +2,9 @@
 
 **AIが中心の時代は終わった。物語の太陽は、あなただ。**
 
-これは、AI時代の物語創作における新しい思想体系 **「The Heliocentric Method（地動説メソッド）」** の母港（ホームポート）となるリポジトリです。
+ここは、AI時代の物語創作に新たな視点をもたらす思想体系 **「The Heliocentric Method（地動説メソッド）」** の母港（ホームポート）です。
+
+また、人間とAIの共創を探求する研究エコシステム[Agora-Supercluster](https://github.com/torisan-unya/Agora-Supercluster)の一部でもあります。
 
 **Author:** Torisan Unya [@torisan_unya] (ORCID: https://orcid.org/0009-0004-7067-9765)
 
