@@ -1,53 +1,63 @@
 # The Heliocentric Method
 
-**AIが中心の時代は終わった。物語の太陽は、あなただ。**
+[日本語版はこちら (View in Japanese)](./README.ja.md)
 
-ここは、AI時代の物語創作に新たな視点をもたらす思想体系 **「The Heliocentric Method（地動説メソッド）」** の母港（ホームポート）です。
+**The era of AI-centric creation is over. You are the sun of your story.**
 
-また、人間とAIの共創を探求する研究エコシステム[Agora-Supercluster](https://github.com/torisan-unya/Agora-Supercluster)の一部でもあります。
+This is the home port for **The Heliocentric Method**, a conceptual framework that brings a new perspective to storytelling in the age of AI.
 
-**Author:** Torisan Unya [@torisan_unya] (ORCID: https://orcid.org/0009-0004-7067-9765)
+It is also part of [Agora-Supercluster](https://github.com/torisan-unya/Agora-Supercluster), a research ecosystem exploring human-AI co-creation.
+
+**Author:** Unya Torisan [@torisan_unya] (ORCID: https://orcid.org/0009-0004-7067-9765)
 
 ---
 
-## はじめに：なぜ「地動説」なのか
+## Introduction: Why "Heliocentric"?
 
-従来のAI小説執筆は、まるで「天動説」のようでした。
-私たちは、AIという巨大な天体の気まぐれな出力に一喜一憂し、その周りを右往左往しながら、なんとか望む結果を引き出そうとします。そこではAIが中心であり、作者は翻弄される惑星にすぎません。
+Traditional AI-driven writing often feels like a "geocentric" model. We anxiously await the whimsical outputs of a colossal celestial body—the AI—scrambling to steer it toward our desired results. In this model, the AI is the center, and the author is merely a planet at its mercy.
 
-**The Heliocentric Method** は、その主従関係を覆します。
+**The Heliocentric Method** inverts this relationship.
 
-**創造の太陽は、AIではなく「作者の描きたい物語」そのものであるべきです。**
+**The creative sun should not be the AI, but the author's vision itself.**
 
-AI、プロンプト、各種ツールは、その太陽の引力に導かれ、作者の創造性を輝かせるために周回する惑星や衛星にすぎません。このリポジトリは、作者が再び創造の太陽となるための羅針盤であり、その実践的な方法論を探求する場所です。
+AI, prompts, and other tools are merely planets and satellites, orbiting this sun, guided by its gravitational pull to illuminate the author's creativity. This repository is a compass for authors to reclaim their position as the creative sun and a place to explore this practical methodology.
 
-## 「地動説メソッド」の核心
+## The Core of the Heliocentric Method
 
-| | ❌ **天動説モデル (Geocentric Model)** | ✅ **地動説モデル (Heliocentric Model)** |
+| | ❌ **Geocentric Model** | ✅ **Heliocentric Model** |
 | :--- | :--- | :--- |
-| **中心** | AIの出力、性能 | **作者の構想、テーマ、情熱** |
-| **作者の役割** | AIのご機嫌を伺うオペレーター | **物語世界の創造主、指揮者** |
-| **プロンプト** | 魔法の呪文（結果は運次第） | **意図を伝えるための設計図、指示書** |
-| **プロセス** | AIの出力に合わせて物語を修正する | **物語の実現のためにAIを道具として使う** |
-| **目指すもの** | 「AIが書いたすごい文章」 | **「作者が表現したかった物語」** |
+| **Center** | The AI's output, its capabilities | **The author's vision, theme, and passion** |
+| **Author's Role** | An operator trying to appease the AI | **The creator and conductor of the story's universe** |
+| **Prompt** | A magic spell with unpredictable results | **A blueprint, a set of instructions to convey intent** |
+| **Process** | Modifying the story to fit the AI's output | **Using the AI as a tool to realize the story** |
+| **Goal** | "An amazing text written by an AI" | **"The story the author wanted to express"** |
 
+We don't let the AI "write for us"; we **"use"** the AI to write.
 
-私たちは、AIに「書かせる」のではなく、AIを「使って」書くのです。
+## Projects and Prompts
 
-## このリポジトリの歩き方
+This repository contains projects that put the Heliocentric Method into practice.
 
-このリポジトリでは、地動説メソッドを実践するための具体的なプロジェクトを格納していきます。
+*   [`novel_writer_as_a_heliocentric/`](./novel_writer_as_a_heliocentric/): A project dedicated to applying the Heliocentric Method to novel writing.
+    *   **Prompt:** The core prompt is located at [`Heliocentric_Novel_Writer.en.md`](./novel_writer_as_a_heliocentric/prompts/en/Heliocentric_Novel_Writer.en.md).
+    *   **Example Output:** See a sample novel generated with this method in [`crimson-roar-descent-one-shot.md`](./novel_writer_as_a_heliocentric/prompts/en/examples/ai-novelAI-Novel-Prompt-Hybrid-generated-sample-crimson-roar-descent-one-shot.md).
 
-*   [`novel_writer_as_a_heliocentric/`](./novel_writer_as_a_heliocentric/)
-    *   小説執筆における地動説メソッドの実践プロジェクトです。
-    *   意図を的確に反映させるための具体的なプロンプトは、このディレクトリ内の `prompt/` に格納されています。
+## Migration Note
 
-## 移行について
-
-このリポジトリのコンテンツの一部は、旧リポジトリ `AI-Novel-Prompt-Hybrid` から、思想の発展に伴い移行されたものです。
+Some content in this repository has been migrated from the former `AI-Novel-Prompt-Hybrid` repository, reflecting the evolution of the core philosophy.
 
 ---
 
 ### License
 
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+This project is dual-licensed to encourage both open collaboration and practical use.
+
+*   **Conceptual Framework, Prompts, and Documentation (Paper):**
+    Licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/).
+    *   This applies to all non-code assets. If you adapt these materials (e.g., create a new prompt based on this method) and share them publicly, you must do so under the same CC BY-SA 4.0 license. This ensures that the ecosystem of shared knowledge continues to grow.
+
+*   **Source Code (Code):**
+    Licensed under the [MIT License](https://opensource.org/licenses/MIT).
+    *   This applies to any scripts or helper code. It grants you the freedom to integrate them into your own tools with minimal restrictions.
+
+**In simple terms:** You are free to use and modify everything for your internal or private projects. However, when you publicly share derivatives of our **prompts and methods**, we ask that you honor the CC BY-SA 4.0 license to foster a collaborative community.
