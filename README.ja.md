@@ -50,16 +50,30 @@ AI、プロンプト、各種ツールは、その太陽の引力に導かれ、
 
 ## License
 
-This project is licensed under a combination of the MIT License and a patent license addendum. This structure provides legal clarity and protection for all users and contributors. The complete license agreement consists of the following two documents:
+This project uses a **dual license structure (MIT + Patent License Addendum)** to ensure both openness and legal clarity for all users and contributors.  
+It maintains consistency with actively developed projects and governs all present and future code contributions.
 
-*   **[`LICENSE.md`](LICENSE.md)**: The primary copyright license (MIT License) governing the use of the software.
-*   **[`PATENT_LICENSE_ADDENDUM.md`](PATENT_LICENSE_ADDENDUM.md)**: An integral addendum that grants a license to essential patent claims held by contributors.
+The complete license agreement consists of the following two documents:
 
-### To Our Users
+- **[`LICENSE.md`](LICENSE.md)** — The primary copyright license under the [MIT License](https://opensource.org/licenses/MIT).  
+- **[`PATENT_LICENSE_ADDENDUM.md`](PATENT_LICENSE_ADDENDUM.md)** — An integrated addendum granting a license to contributors’ essential patent claims.
 
-You are granted the right to use this software under the terms of the MIT License, supplemented by a patent license from all contributors, **providing enhanced legal protection and clarity** for all parties.
+---
 
-### To Our Contributors
+### 🔹 For Users
 
-Thank you for considering a contribution! Please be aware that by submitting any contribution (such as a pull request), you are explicitly agreeing to the terms of the entire license agreement, including the patent grant outlined in **[`PATENT_LICENSE_ADDENDUM.md`](PATENT_LICENSE_ADDENDUM.md)**. This is a crucial measure to protect the project, its community, and its future.
+You may use, modify, and distribute this software under the **MIT License**,  
+supplemented by a **patent license** from all contributors.  
+This dual structure provides enhanced **legal protection and clarity** for every user.
 
+---
+
+### 🔹 For Contributors
+
+Thank you for your contributions!  
+Please note that by submitting any "Contribution" (e.g., a pull request or patch),  
+you **explicitly agree** to the terms of both license documents listed above,  
+including the **patent grant and defensive termination clause** in  
+[`PATENT_LICENSE_ADDENDUM.md`](PATENT_LICENSE_ADDENDUM.md).
+
+This ensures the continued protection and sustainability of the project and its community.
