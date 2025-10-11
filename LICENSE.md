@@ -1,4 +1,4 @@
-# Project "Unya-Tori" License
+# Project "Agora-Supercluster" License
 
 This document, along with its addendum [`PATENT_LICENSE_ADDENDUM.md`](PATENT_LICENSE_ADDENDUM.md), forms the complete legal licensing framework for this project. The project is dual-licensed to appropriately cover its distinct components: software code and academic/documentary content.
 
