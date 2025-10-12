@@ -6,7 +6,8 @@
 
 This repository hosts **The Heliocentric Method**, a framework reorienting AI-assisted storytelling to prioritize the author's vision. It empowers creators to use AI as orbiting tools—prompts, agents, and models—rather than deferring to AI as the creative core. Part of the [Agora-Supercluster](https://github.com/torisan-unya/Agora-Supercluster) ecosystem, it explores human-AI co-creation grounded in recent research on author-centric narratives.
 
-**Author:** Unya Torisan [@torisan_unya](https://x.com/torisan_unya) (ORCID: [0009-0004-7067-9765](https://orcid.org/0009-0004-7067-9765))
+Authored by Torisan Unya (Independent Researcher, ORCID: [0009-0004-7067-9765](https://orcid.org/0009-0004-7067-9765)). 
+Licensed under **MIT + Patent License Addendum** (see [License](#license)).
 
 ---
 
