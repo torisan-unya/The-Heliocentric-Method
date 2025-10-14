@@ -2,8 +2,6 @@
 
 [日本語版はこちら (View in Japanese)](./README.ja.md)
 
-Part of the [Agora-Supercluster](https://github.com/torisan-unya/Agora-Supercluster), this project advances Human-AI Collaboration (HAC) principles.
-
 Authored by Torisan Unya (Independent Researcher, ORCID: [0009-0004-7067-9765](https://orcid.org/0009-0004-7067-9765)). 
 Licensed under **MIT + Patent License Addendum** (see [License](#license)).
 
