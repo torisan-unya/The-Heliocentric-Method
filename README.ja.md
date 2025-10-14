@@ -9,6 +9,8 @@
 Authored by Torisan Unya (Independent Researcher, ORCID: [0009-0004-7067-9765](https://orcid.org/0009-0004-7067-9765)). 
 Licensed under **MIT + Patent License Addendum** (see [License](#license)).
 
+Part of the [Agora-Supercluster](https://github.com/torisan-unya/Agora-Supercluster), this project advances Human-AI Collaboration (HAC) principles.
+
 ---
 
 ## はじめに：なぜ「地動説」なのか
