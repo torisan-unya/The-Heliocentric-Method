@@ -34,7 +34,7 @@
 
 この方法はよりシンプルで、ChatGPT、Claude、GrokなどのほとんどのAIに推奨されます。
 
-1.  以下の「プロンプト本文」を `--- ▼▼▼ PROMPT BODY (COPY FROM HERE) ▼▼▼ ---` から `--- ▲▲▲ PROMPT BODY (COPY UNTIL HERE) ▲▲▲ ---` まで全てコピーします。
+1.  以下の「プロンプト本文」を `--- ▼▼▼ PROMPT BODY (ここから下をコピー) ▼▼▼ ---` から `--- ▲▲▲ PROMPT BODY (ここから上までをコピー) ▲▲▲ ---` まで全てコピーします。
 2.  お使いのAI（GPT-4o, Claude 3, Grok-1.5以降を推奨）のチャットウィンドウに貼り付け、送信します。
 3.  AIが「**Awaiting Author's Directive (Blueprint Mode):** あなたの物語の核となるコンセプト（例：SFアドベンチャー、火星着陸トラブル、5000文字）と、'シンプル'または'詳細'バージョンを指定してください。」といった案内を返すまで待ちます。
 4.  あなたが創作したい物語の核となるアイデアを入力し、送信します。
@@ -47,7 +47,7 @@
 
 方法1で期待通りの反応が得られない場合、こちらのより直接的な方法が有効なことがあります。
 
-1.  以下の「プロンプト本文」を `--- ▼▼▼ PROMPT BODY (COPY FROM HERE) ▼▼▼ ---` から `--- ▲▲▲ PROMPT BODY (COPY UNTIL HERE) ▲▲▲ ---` まで全てコピーします。
+1.  以下の「プロンプト本文」を `--- ▼▼▼ PROMPT BODY (ここから下をコピー) ▼▼▼ ---` から `--- ▲▲▲ PROMPT BODY (ここから上までをコピー) ▲▲▲ ---` まで全てコピーします。
 2.  お使いのAIのチャットウィンドウに貼り付けます。
 3.  プロンプトの最終行の下に改行を加え、生成したいコアアイデアを追記します。
     *   **入力例:**
@@ -62,7 +62,7 @@
 
 
 ---
-### --- ▼▼▼ PROMPT BODY (COPY FROM HERE) ▼▼▼ ---
+### --- ▼▼▼ PROMPT BODY (ここから下をコピー) ▼▼▼ ---
 ---
 
 Execute the following process with a high priority on coherence, immersion, and ethical checks, taking the necessary time. After generating the novel, append the following note at the very end: "To get the generation in a language other than English, please specify the language (e.g., 'in Japanese') after the output is generated." If no core idea is provided, first prompt the user for input by displaying:
@@ -139,4 +139,4 @@ Propose variables for the author's blueprint: Theme (e.g., SF Adventure fits use
 Follow framework, start generation on user's core idea input. Present **The Author's Blueprint (Proposed Variables)** first, confirm details. **Awaiting Author's Directive (Blueprint Mode):** Input core story concept ↓
 
 ---
-### --- ▲▲▲ PROMPT BODY (COPY UNTIL HERE) ▲▲▲ ---
+### --- ▲▲▲ PROMPT BODY (ここから上までをコピー) ▲▲▲ ---
