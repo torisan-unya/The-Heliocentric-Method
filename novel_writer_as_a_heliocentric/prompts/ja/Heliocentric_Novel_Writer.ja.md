@@ -1,6 +1,6 @@
 # Heliocentric Novel Writer（地動説的な新世代の小説ライター） — 作者中心の物語生成プロンプト
 
-**著者:** Torisan Unya (ORCID: https://orcid.org/0009-0004-7067-9765)  
+**著者:** Unya Torisan (ORCID: https://orcid.org/0009-0004-7067-9765)  
 **ライセンス:** 本ドキュメントとプロンプトテキスト（「ペーパー」）は **CC BY-SA 4.0** ライセンスです。`code_execution` 用の概念的なコードブロックとロジック（「コード」）は **MITライセンス** です。
 
 （ライセンスを分かりやすく言うと、こうなります！
