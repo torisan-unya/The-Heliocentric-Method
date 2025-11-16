@@ -1,80 +1,68 @@
-# The Heliocentric Novel Writer：著者中心型小説生成プロンプト
+# Heliocentric Novel Writer（地動説的な新世代の小説ライター） — 作者中心の物語生成プロンプト
 
-**著者:** Unya Torisan (ORCID: https://orcid.org/0009-0004-7067-9765)  
-**ライセンス:**  
-- ドキュメントおよびプロンプト本文（「paper」）は **CC BY-SA 4.0** ライセンス。  
-- `code_execution` 用の概念的コードブロックおよびロジック（「code」）は **MITライセンス** で提供。
+**著者:** Torisan Unya (ORCID: https://orcid.org/0009-0004-7067-9765)  
+**ライセンス:** 本ドキュメントとプロンプトテキスト（「ペーパー」）は **CC BY-SA 4.0** ライセンスです。`code_execution` 用の概念的なコードブロックとロジック（「コード」）は **MITライセンス** です。
 
-このプロンプトは **「太陽中心法（The Heliocentric Method）」** を実現するものであり、著者であるあなたを創造の「太陽」に位置づけます。AIはあなたの中心的な発想の周囲を公転する精緻な惑星系として機能し、あなたが思い描く没入的な小説を実現します。このフレームワークは、CO-STAR、StoryWriter、ANN、そしてマルチモーダル感覚・心理結合を統合した強力なツールであり、査読済みのarXiv論文を基礎に設計されています。  
-SFアドベンチャー、ミステリ心理サスペンス、歴史ドラマといった多様なテーマに対応し、プロット整合度95%以上、倫理的チェック（偏り5%未満）、自然な感情進行（緊張の頂点→余韻の解放）を保証します。生成工程をモジュール化して効率化を図り、著者の手間を省くために、対話的な変数提案を行う **「著者の設計図モード（Author's Blueprint Mode）」** を備えています。
+このプロンプトは **「地動説メソッド（The Heliocentric Method）」** を実践するものです。創造の太陽である「あなた（作者）」を中心に据え、AIを、あなたの構想（コアアイデア）の周りを公転する洗練された惑星系へと変貌させます。これは、あなたのビジョンを没入感のある小説として実現するために設計されたフレームワークです。
 
----
+査読済みarXiv論文群に基づき、CO-STAR、StoryWriter、ANN、そしてマルチモーダルな感覚＝心理連動といった技術を統合した強力なツールでもあります。SFアドベンチャー、心理サスペンス、歴史劇といったテーマを問わず、構想再現度95%以上、倫理チェック（偏り5%未満）、そして自然な感情の推移（緊張のピークから解放の余韻まで）を保証します。また、**「作者の設計図モード」** により、対話形式で変数を提案し、あなたの創作準備を簡潔にすることで、生成プロセスを効率化します。
 
 ### このプロンプトの特徴
 
-* **著者中心型ハイブリッド生成**  
-  プロンプトエンジニアリング、マルチエージェントシミュレーション（StoryWriter）、ANN近似を組み合わせ、著者の創造ビジョンを中心に機能する強力なツールセットを形成します。
+*   **作者中心のハイブリッド生成系:**  
+    Prompt Engineering、マルチエージェントシミュレーション（StoryWriter）、ANNモデルを統合。すべてが作者のビジョンの周りを公転する強力なツールセットとして機能します。
 
-* **arXiv論文に基づく厳密性**  
-  エンジンは査読済み・検証済みの論文を基に構築されており（例：arXiv:2401.14423 はプロンプトエンジニアリング、arXiv:2506.16445 は長編物語エージェント、arXiv:2407.08683 はマルチモーダル没入）、2025年の最新技術を反映します。
+*   **arXiv論文に基づく厳密設計:**  
+    プロンプトエンジニアリング（arXiv:2401.14423）、長編物語エージェント（arXiv:2506.16445）、マルチモーダル没入体験（arXiv:2407.08683）など、査読済み論文を基盤に構築。2025年以降の更新にも対応し、常に最先端の実行を保証します。
 
-* **著者設計図モード（Author’s Blueprint Mode）**  
-  シンプルなアイデアからテーマ、参考文献、生成指示、文字数などの主要変数を自動的に定義し、心理的深度を持つ物語を容易に立ち上げる対話型支援モードです。
+*   **著者の設計図モード（Author's Blueprint Mode）:**  
+    単純なコアアイデアから、物語の設計図（テーマ、参照資料、生成指示、文字数などの変数定義）を対話形式で作成支援。煩雑な手作業なしで、心理的深度に焦点を当てた生成を可能にします。
 
-* **マルチモーダル没入体験**  
-  視覚・聴覚・触覚などの感覚描写を内的葛藤と連携させ、読者の五感と感情を巻き込む深い没入感を自動的に生成します。
+*   **マルチモーダルな没入体験:**  
+    五感（視覚・聴覚・触覚など）と内面の葛藤を結びつけ、作者が意図した深い没入体験を実現する能力を提供します。
 
-* **倫理的かつ整合性のある出力**  
-  内部検証機構（整合スコア>95%）、自然な感情表現（RLHF学習）、偏り評価（<5%）を搭載し、著者の創造的・倫理的基準を満たす最終成果を保証します。
-
----
+*   **倫理的で一貫した出力:**  
+    内蔵された検証機能（SCORE >95%）、自然な感情表現のためのRLHF、そして偏りチェック（<5%）により、最終的な出力が作者の創造的・倫理的基準に忠実であり続けることを保証します。
 
 ### 使い方
 
-小説の「コアアイデア（中心概念）」の入力方法は使用するAIにより多少異なります。以下のいずれかの方法をお試しください。
+作品の「核となる発想（Core Idea）」の入力方法は、使用するAIによって若干異なります。あなたの環境に合わせて、以下のいずれかの方法をお試しください。
 
 ---
 
-#### 【方法1】対話的にクリエイティブコアを定義する（推奨）
+#### **【方法1】対話的に物語の核を定義する（推奨）**
 
-最も簡単な方法であり、ChatGPT、Claude、Grok などに適しています。
+この方法はよりシンプルで、ChatGPT、Claude、GrokなどのほとんどのAIに推奨されます。
 
-1. 「プロンプト本文（Prompt Body）」を `--- ▼▼▼ PROMPT BODY (COPY FROM HERE) ▼▼▼ ---` から `--- ▲▲▲ PROMPT BODY (COPY UNTIL HERE) ▲▲▲ ---` までコピー。  
-2. それをAIのチャットウィンドウ（GPT-4o、Claude 3、Grok-1.5以上推奨）に貼り付けて送信します。  
-3. AIから「**Awaiting Author’s Directive (Blueprint Mode):** あなたの物語のコアコンセプトを入力してください（例：SFアドベンチャー、火星着陸トラブル、5000文字）」といったメッセージが返されます。  
-4. 生成したい物語の基本アイデアを入力して送信します。
-
-　**入力例:**  
-　*例1:* `SFアドベンチャー、火星着陸でAI暴走、5000文字 シンプル版`  
-　*例2:* `ミステリー心理サスペンス、探偵の内的葛藤、3000文字 詳細版`
+1.  以下の「プロンプト本文」を `--- ▼▼▼ PROMPT BODY (ここから下をコピー) ▼▼▼ ---` から `--- ▲▲▲ PROMPT BODY (ここから上までをコピー) ▲▲▲ ---` まで全てコピーします。
+2.  お使いのAI（GPT-4o, Claude 3, Grok-1.5以降を推奨）のチャットウィンドウに貼り付け、送信します。
+3.  AIが「**Awaiting Author's Directive (Blueprint Mode):** あなたの物語の核となるコンセプト（例：SFアドベンチャー、火星着陸トラブル、5000文字）と、'シンプル'または'詳細'バージョンを指定してください。」といった案内を返すまで待ちます。
+4.  あなたが創作したい物語の核となるアイデアを入力し、送信します。
+    *   **入力例1:** `SFアドベンチャー、核AIによる火星着陸トラブル、5000文字 シンプル`
+    *   **入力例2:** `心理サスペンスミステリー、探偵の内なる疑念、3000文字 詳細`
 
 ---
 
-#### 【方法2】プロンプトと同時にコアイデアを送信する
+#### **【方法2】プロンプトとコアアイデアを同時に送信する**
 
-方法1で期待通りの応答が得られない場合に効果的です。
+方法1で期待通りの反応が得られない場合、こちらのより直接的な方法が有効なことがあります。
 
-1. 「プロンプト本文」をすべてコピーします。  
-2. AIのチャットに貼り付けます。  
-3. プロンプトの末尾（最後の行の下）に新しい行を追加し、生成したいコアイデアを記述します。  
+1.  以下の「プロンプト本文」を `--- ▼▼▼ PROMPT BODY (ここから下をコピー) ▼▼▼ ---` から `--- ▲▲▲ PROMPT BODY (ここから上までをコピー) ▲▲▲ ---` まで全てコピーします。
+2.  お使いのAIのチャットウィンドウに貼り付けます。
+3.  プロンプトの最終行の下に改行を加え、生成したいコアアイデアを追記します。
+    *   **入力例:**
+        ```
+        ...（プロンプトの末尾）...
+        ## ====== Execution Instructions ======
+        Follow framework, start generation on user's core idea input. Present **The Author's Blueprint (Proposed Variables)** first, confirm details. **Awaiting Author's Directive (Blueprint Mode):** Input core story concept ↓
 
-　**入力例:**  
-　```
-　...（プロンプト末尾）...
-　## ====== Execution Instructions ======
-　Follow framework, start generation on user's core idea input. Present **The Author's Blueprint (Proposed Variables)** first...
-　
-　SFアドベンチャー、火星でのAI核事故トラブル、5000文字 シンプル版
-　```
+        SFアドベンチャー、核AIによる火星着陸トラブル、5000文字 シンプル
+        ```
+4.  プロンプトとアイデアをまとめて一度に送信します。
 
-4. プロンプト全体とアイデアをまとめて一度に送信します。
-
----
-
-これでAIが「著者中心フレームワーク」を基に、あなたの意図を最大限反映した小説生成を開始します。
 
 ---
-### --- ▼▼▼ PROMPT BODY (COPY FROM HERE) ▼▼▼ ---
+### --- ▼▼▼ PROMPT BODY (ここから下をコピー) ▼▼▼ ---
 ---
 
 Execute the following process with a high priority on coherence, immersion, and ethical checks, taking the necessary time. After generating the novel, append the following note at the very end: "To get the generation in a language other than English, please specify the language (e.g., 'in Japanese') after the output is generated." If no core idea is provided, first prompt the user for input by displaying:
@@ -151,4 +139,5 @@ Propose variables for the author's blueprint: Theme (e.g., SF Adventure fits use
 Follow framework, start generation on user's core idea input. Present **The Author's Blueprint (Proposed Variables)** first, confirm details. **Awaiting Author's Directive (Blueprint Mode):** Input core story concept ↓
 
 ---
-### --- ▲▲▲ PROMPT BODY (COPY UNTIL HERE) ▲▲▲ ---
+### --- ▲▲▲ PROMPT BODY (ここから上までをコピー) ▲▲▲ ---
+
