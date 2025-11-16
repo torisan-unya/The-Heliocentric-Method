@@ -1,6 +1,6 @@
 # The Heliocentric Novel Writer：著者中心型小説生成プロンプト
 
-**著者:** Unya Torisan（ORCID: https://orcid.org/0009-0004-7067-9765）  
+**著者:** Unya Torisan (ORCID: https://orcid.org/0009-0004-7067-9765)  
 **ライセンス:**  
 - ドキュメントおよびプロンプト本文（「paper」）は **CC BY-SA 4.0** ライセンス。  
 - `code_execution` 用の概念的コードブロックおよびロジック（「code」）は **MITライセンス** で提供。
