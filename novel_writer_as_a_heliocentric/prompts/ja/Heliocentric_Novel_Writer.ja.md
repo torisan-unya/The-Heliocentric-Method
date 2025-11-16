@@ -1,4 +1,4 @@
-# 太陽中心小説作家：著者中心型小説生成プロンプト
+# The Heliocentric Novel Writer：著者中心型小説生成プロンプト
 
 **著者:** Unya Torisan（ORCID: https://orcid.org/0009-0004-7067-9765）  
 **ライセンス:**  
