@@ -41,9 +41,9 @@ AI、プロンプト、各種ツールは、その太陽の引力に導かれ、
 
 このリポジトリでは、地動説メソッドを実践するための具体的なプロジェクトを格納していきます。
 
-*   [`novel_writer_as_a_heliocentric/`](./novel_writer_as_a_heliocentric/)
-    *   小説執筆における地動説メソッドの実践プロジェクトです。
-    *   意図を的確に反映させるための具体的なプロンプトは、このディレクトリ内の `prompt/` に格納されています。
+*   [`novel_writer_as_a_heliocentric/`](./novel_writer_as_a_heliocentric/prompts/ja/Heliocentric_Novel_Writer.ja.md)
+    *   プロンプト本体です
+
 
 ## 移行について
 
